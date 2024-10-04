@@ -1,93 +1,98 @@
-# Chat App CSS Illustration
+# Frontend Mentor - Chat app CSS illustration solution
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/72b56c3b-3d22-400d-afd8-d767a0ea99b4/deploy-status)](https://app.netlify.com/sites/chat-app-css-iluustration/deploys)
+[![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) 
+[![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+[![Last Commit](https://img.shields.io/gitlab/last-commit/Yashi-Singh-9/chat-app-css-illustration?style=for-the-badge)](https://gitlab.com/Yashi-Singh-9/chat-app-css-illustration/-/commits/main)
 
+This is a solution to the [Chat app CSS illustration challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Getting started
+## Table of contents
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Overview
 
-## Add your files
+### The challenge
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+Users should be able to:
 
+- View the optimal layout for the component depending on their device's screen size.
+- **Bonus**: See the chat interface animate on the initial load.
+
+### Screenshot
+
+#### Desktop Design
+
+![Screenshot of my solution](design/desktop-design.jpg)
+
+#### Mobile Design
+
+![Screenshot of my solution](design/mobile-design.jpg)
+
+### Links
+
+- Solution URL: [Solution]https://www.frontendmentor.io/solutions/chat-app-css-illustration-EJxJ8EtOzE)
+- Live Site URL: [Live](https://chat-app-css-iluustration.netlify.app)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox for layout
+- Mobile-first workflow
+- CSS animations for initial chat load
+
+### What I learned
+
+During this project, I reinforced my understanding of using **CSS animations** and **keyframes** to create smooth transitions for chat messages. The chat boxes slide in from opposite sides, simulating a real-time chat experience. 
+
+Here’s an example of a CSS animation I applied:
+
+```css
+@keyframes slideIn {
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.chat-left-container, .chat-right-container {
+    animation: slideIn 1s ease-in forwards, fadeIn 1s ease-in forwards;
+}
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/Yashi-Singh-9/chat-app-css-illustration.git
-git branch -M main
-git push -uf origin main
-```
 
-## Integrate with your tools
+Additionally, I improved my mobile-first design approach, ensuring that the app’s layout looks clean and functional on both desktop and mobile devices.
 
-- [ ] [Set up project integrations](https://gitlab.com/Yashi-Singh-9/chat-app-css-illustration/-/settings/integrations)
+### Continued development
 
-## Collaborate with your team
+I plan to explore more about:
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- **Accessibility**: Adding ARIA attributes and making the app more usable for screen readers.
+- **Advanced CSS animations**: Using more complex animations and transitions to enhance user experience.
+- **Responsiveness**: While the layout is mobile-first, I aim to improve responsiveness across different screen sizes.
 
-## Test and Deploy
+### Useful resources
 
-Use the built-in continuous integration in GitLab.
+- [MDN Web Docs - CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations) - This helped me understand how to use `@keyframes` and apply animation properties effectively.
+- [CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This article was incredibly useful for laying out my components using Flexbox.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+## Author
 
-***
+- Frontend Mentor - [@Yashi-Singh-9](https://www.frontendmentor.io/profile/Yashi-Singh-9)
+- LinkedIn - [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
 
-# Editing this README
+## Acknowledgments
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Thanks to the Frontend Mentor community for providing great challenges and resources. Special thanks to anyone who provided feedback and guidance on improving this solution.

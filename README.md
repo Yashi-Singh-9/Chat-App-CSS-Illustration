@@ -18,6 +18,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+- [Style Guide](#style-guide)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -87,6 +88,10 @@ I plan to explore more about:
 
 - [MDN Web Docs - CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations) - This helped me understand how to use `@keyframes` and apply animation properties effectively.
 - [CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This article was incredibly useful for laying out my components using Flexbox.
+
+## Style Guide
+
+For Style Guidance please refer to [Style Guide File](style-guide.md)
 
 ## Author
 

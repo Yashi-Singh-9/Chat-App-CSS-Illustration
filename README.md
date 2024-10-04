@@ -42,7 +42,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]https://www.frontendmentor.io/solutions/chat-app-css-illustration-EJxJ8EtOzE)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/chat-app-css-illustration-EJxJ8EtOzE)
 - Live Site URL: [Live](https://chat-app-css-iluustration.netlify.app)
 
 ## My process
